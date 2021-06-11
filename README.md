@@ -1,2 +1,2 @@
 # BotInlineShop
-My telegram bot. Finctions: inline shop and referrals.
+My telegram bot. Functions: inline shop and referrals.
