@@ -53,3 +53,9 @@ def get_items() -> List[Item]:
 def count_items():
     total = Item.objects.all().count()
     return total
+
+
+@sync_to_async
+def get_items_by_query(query) -> List[Item]:
+    items = Item.objects.filter(name__startswith=query)
+    return items
